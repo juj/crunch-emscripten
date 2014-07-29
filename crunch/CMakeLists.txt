@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.8)
 
-file(GLOB sourceFiles *.*)
+file(GLOB sourceFiles *.cpp)
 
 include_directories(../crnlib)
 include_directories(../inc)

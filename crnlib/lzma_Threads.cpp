@@ -1,3 +1,4 @@
+#ifndef __APPLE__
 /* Threads.c -- multithreading library
 2008-08-05
 Igor Pavlov
@@ -114,3 +115,4 @@ WRes CriticalSection_Init(CCriticalSection *p)
 }
 
 }
+#endif // ~ !__APPLE__

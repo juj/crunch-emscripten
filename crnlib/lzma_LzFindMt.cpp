@@ -1,3 +1,5 @@
+#ifndef __APPLE__
+
 /* LzFindMt.c -- multithreaded Match finder for LZ algorithms
 2008-10-04 : Igor Pavlov : Public domain */
 #include "crn_core.h"
@@ -795,3 +797,5 @@ void MatchFinderMt_CreateVTable(CMatchFinderMt *p, IMatchFinder *vTable)
 }
 
 }
+
+#endif // ~!__APPLE__

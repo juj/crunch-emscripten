@@ -1,3 +1,4 @@
+#ifndef __APPLE__
 /* LzFindMt.h -- multithreaded Match finder for LZ algorithms
 2008-10-04 : Igor Pavlov : Public domain */
 
@@ -98,4 +99,4 @@ void MatchFinderMt_ReleaseStream(CMatchFinderMt *p);
 
 }
 
-#endif
+#endif // ~!__APPLE__

@@ -1,5 +1,8 @@
 // File: crn_win32_threading.cpp
 // See Copyright Notice and license at the end of inc/crnlib.h
+
+#ifdef WIN32
+
 #include "crn_core.h"
 #include "crn_threading_win32.h"
 #include "crn_winhdr.h"
@@ -426,3 +429,4 @@ namespace crnlib
 
 } // namespace crnlib
 
+#endif // ~WIN32
